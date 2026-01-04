@@ -1,0 +1,49 @@
+{
+  "name": "Achilles+ Streaming",
+  "short_name": "Achilles+",
+  "description": "Your personal streaming empire",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#141414",
+  "theme_color": "#e50914",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot.png",
+      "sizes": "1280x720",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["entertainment", "video"],
+  "shortcuts": [
+    {
+      "name": "Browse Movies",
+      "url": "/?filter=movies",
+      "description": "Browse movie collection"
+    },
+    {
+      "name": "TV Shows",
+      "url": "/?filter=shows",
+      "description": "Browse TV shows"
+    },
+    {
+      "name": "Admin Panel",
+      "url": "/admin",
+      "description": "Manage content"
+    }
+  ]
+}
