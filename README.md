@@ -1,3 +1,3 @@
 # Streaming-Service
 
-A streamin Service run by me for me.
+A Streaming Service run by me for me.
